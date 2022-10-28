@@ -5,7 +5,7 @@ $(function () {
     countMe();
 
     $.ajax({
-        url: 'http://www.mocky.io/v2/5d73bf3d3300003733081869',
+        url: 'https://www.mocky.io/v2/5d73bf3d3300003733081869',
         success: function (res) {
             $.each(res, function (index, element) {
                 const clsAge = class_age(element.age);
